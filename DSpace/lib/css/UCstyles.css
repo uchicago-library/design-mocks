@@ -1,0 +1,270 @@
+@import url(http://www.myfonts.com/fonts/marksimonson/proxima-nova/regular/);
+@import url(http://www.myfonts.com/fonts/marksimonson/proxima-nova/bold/);
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('Content/fonts/glyphicons-halflings-regular.eot');
+  src: url('Content/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded- opentype'), url('Content/fonts/glyphicons-halflings-regular.woff') format('woff'), url('Content/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('Content/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+body {
+  font-family: 'ProximaNova-Regular', "Arial", sans-serif;
+}
+
+header {
+	margin-bottom:30px;
+}
+
+h1 {
+    color: #800000;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+
+/*nav bar*/
+
+.logobrand {
+	max-height: 45px;
+	float: left;
+	padding-right: 15px;
+	clear:both;
+}
+
+.navbar-brand {
+    line-height: 1.5em;
+}
+
+.navbar-header {
+	font-color: #642822;
+	font-family: Garamond, Baskerville, 'Baskerville Old Face', "Times New Roman", serif;
+	font-weight: 700;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border-bottom: 1px solid #B1746F;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-nav>li>a {
+    color: #767676;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-nav>li>a:hover {
+    color: #642822;
+    background-color: #fff;
+}
+
+.rightnav-wrapper {
+	background-color: #B1746F;
+    float: left;
+    right: 350px;
+    top: 0px;
+    position: absolute;
+    padding: 5px 10px;
+    border-radius: 0px 0px 14px 14px;
+}
+
+.rightnav {
+	color: #fff;
+    top: 10px;
+}
+
+a.rightnav:hover, a.rightnav:focus {
+	color: #800000;
+	text-decoration: none;
+}
+
+.dropdown-menu {
+	border: 0px;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    color: #fff;
+    background-color: #B1746F;
+}
+
+/* Breadcrumbs */
+#ds-trail {
+	width: auto;
+}
+
+#ds-trail-wrapper {
+	padding-bottom: 15px;
+    background-color: #fff;
+    border: 0px;
+}
+
+#ds-trail li {
+    color: #767676;
+    }
+
+.carousel-inner>.item>img {
+    min-height: 150px;
+    width: auto;
+    overflow: hidden;
+}
+
+.carousel-caption {
+	line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+	color: rgba(255,255,255,0.7);
+	font-size: 3em;
+	font-weight: 700;
+	padding-bottom: 25px;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+	font-family: "Helvetica", sans-serif;
+}
+
+
+/*News paragraph*/
+.primary {
+	margin-bottom: 0px;
+}
+
+/* Sidebar */
+
+.ds-options-wrapper {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #D6D6CE;
+}
+
+h1.ds-option-set-head {
+	color: #767676;
+    background-color: #D6D6CE;
+    border: 0px;
+    margin-bottom: 0px;
+}
+
+div.ds-option-set {
+    border: 0px;
+}
+
+div.ds-option-set ul.sublist, .div.ds-option-set ul {
+    margin-left: 0px;
+    }
+
+/* Sidebar Search */
+
+.ds-button-field, #aspect_eperson_StartRegistration_list_registration-progress li {
+    background-color: #800000;
+    border: 0px;
+}
+
+/*Promo Text*/
+
+.promoheader {
+	font-size: 3em;
+	padding-left: 10px;
+}
+
+.share {
+	color: #350E20;
+}
+
+.discover {
+	color: #616530;
+}
+
+.preserve {
+	color: #9A5324;
+}
+
+.promoside {
+	font-size: 1.5em;
+}
+
+.promoside li {
+	line-height: 1.25;
+    position: relative;
+    padding-bottom: .5em;
+}
+
+.promobtn {
+color: #fff;
+border: 0px;
+padding: 5px 15px;
+margin: 15px;
+text-align: right;
+font-size: 1.5em;
+border-radius: 5px;
+}
+
+.promobtn:hover {
+background-color: #B1746F;
+}
+
+a.btn {
+color: #fff;
+text-decoration: none;
+}
+
+.btnshare {
+background-color: #350E20;
+}
+
+.btndiscover {
+background-color: #616530;
+}
+
+.btnpreserve {
+background-color: #9A5324;
+}
+
+
+/*** Medium devices (desktops, 992px and up) ***/
+@media(min-width:768px) { 
+
+.navbar-brand {
+    font-size: 2em;
+}
+
+.navbar-nav {
+    padding-top: 12px;
+}
+
+.carousel-inner>.item>img {
+    min-height: 300px;
+}
+
+.carousel-caption {
+	font-size: 6em;
+	padding-bottom: 100px;
+}
+
+/* Main Content */
+.contentwrapper {
+	padding-right: 35px;
+	padding-left: 0px;
+}
+
+.promowrapper {
+	padding-left: 0px;
+}
+
+
+.contentdiv {
+	padding-bottom: 35px;
+}
+
+/* Sidebar */
+
+.ds-options-wrapper {
+	border-left: 1px solid #767676;
+	background-color: #fff;
+}
+
+h1.ds-option-set-head {
+    background-color: #fff;
+}
+
+/* Footer */
+.footer-wrap {
+	border-top: 1px solid #B1746F;
+	padding-bottom: 35px;
+}
+
+
+}
+
